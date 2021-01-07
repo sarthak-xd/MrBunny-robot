@@ -143,11 +143,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/PYTHON_CODER_SRINIVAS")],
-                                                                                   [InlineKeyboardButton(text="ADD PIKACHU TO YOUR GROUP",
+                                                                       url="t.me/jacky_XD")],
+                                                                                   [InlineKeyboardButton(text="ADD MrBunny TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/srinivasop/PIKACHU-OP")
+                                                                       url="https://github.com/nub-sir/MrBunny-robot")
                                                                                  ]]))
 
     else:
