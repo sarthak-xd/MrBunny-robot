@@ -33,20 +33,20 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1100231654"
+         "value": "1272114456"
       },
       "OWNER_NAME": {
          "description": "Your username",
-         "value": "LEGENDX22"
+         "value": "dc_sir"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "1100231654"
+         "value": "1272114456"
       },
 "START_IMG": {
          "description": "Image shows when hit /start",
-         "value": "https://telegra.ph/file/84b2017bc2f3c90f2e61c.jpg"    
+         "value": "https://telegra.ph/file/950e2c28960bfc78386fc.jpg"    
       },
       "GBAN_LOGS": {
          "description": "Gban log channel, include the hyphen too: ex: -123456",
@@ -80,12 +80,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1100231654"
+         "value": "1272114456"
       },
       "TIGER_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "1100231654"
+         "value": "1272114456"
       },
       "TOKEN": {
          "description": "Your bot token.",
@@ -105,7 +105,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1100231654"
+         "value": "1272114456"
       }
    },
    "keywords": [
@@ -114,7 +114,7 @@
       "manager",
       "bot"
    ],
-   "logo": "https://telegra.ph/file/871a5d71464c77ed5d145.jpg",
-   "name": "PIKACHU-OP",
-   "repository": "https://github.com/leobrownlee/phantom"
+   "logo": "https://telegra.ph/file/950e2c28960bfc78386fc.jpg",
+   "name": "Mrbunny-robot",
+   "repository": "https://github.com/nub-sir/Mrbunny-robot"
 }
