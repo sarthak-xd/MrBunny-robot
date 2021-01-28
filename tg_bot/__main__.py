@@ -151,7 +151,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Already ONline")
+        update.effective_message.reply_text("I am not gonna sleep As I Am serving you")
 
 
 def send_start(bot, update):
