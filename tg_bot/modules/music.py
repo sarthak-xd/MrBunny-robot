@@ -1,4 +1,4 @@
-#Made by @LEGENDX22
+#Made with fun
 import html
 import time
 import datetime
@@ -59,7 +59,7 @@ def music(bot: Bot, update: Update, args):
 		if not json2_response['error']:
 			payload = json2_response['payload']
 
-			info = '*{0}* \nUploaded by @AnonymousD3061'.format(payload['fulltitle'])
+			info = '*{0}* \nUploaded by @jacky_xD'.format(payload['fulltitle'])
 
 			try:
 				
@@ -67,7 +67,7 @@ def music(bot: Bot, update: Update, args):
 				count += 1
 				print("\033[1m\033[96m" + "Download count: " + str(count) + "\033[0m")
 			except:
-				bot.send_message(chat_id=chatId, text='Something went wrong with the download..!\nPlease Report there @AnonymousD3061')
+				bot.send_message(chat_id=chatId, text='Something went wrong with the download..!\nPlease Report there @jacky_xD')
 
 
 __help__ = """ Youtube audio Downloader
