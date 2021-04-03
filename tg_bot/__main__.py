@@ -28,6 +28,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
 ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ʜᴇʟᴘꜱ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+Owner & Current Dev - @sarthak_xy 
+Creator - @jacky_xD
 Access my list of available commands with /help.
 
 """
@@ -142,8 +144,6 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="❤️My Creator❤️",
-                                                                       url="t.me/sarthak_xy")],
                                                                                    [InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
