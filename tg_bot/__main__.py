@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-START_IMG = "https://telegra.ph/file/950e2c28960bfc78386fc.jpg"
+START_IMG = "https://telegra.ph/file/c011eb0e908b8cba28fa9.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -143,7 +143,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="❤️My Creator❤️",
-                                                                       url="t.me/Jacky_XD")],
+                                                                       url="t.me/sarthak_xy")],
                                                                                    [InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
